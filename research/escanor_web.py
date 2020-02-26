@@ -1,8 +1,8 @@
 from flask import Flask, redirect, url_for, request
 from fatsecret import Fatsecret
 
-consumer_key = '41c60054515a403298bb7e62c4708b3a'
-consumer_secret = '91a5240e4771461dba932468a6c48654'
+consumer_key = 'asdfadf'
+consumer_secret = 'dasfadsf'
 
 app = Flask(__name__)
 fs = Fatsecret(consumer_key, consumer_secret)
